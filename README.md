@@ -28,6 +28,17 @@ A BCI system prototype that decodes brain EEG signals in order to interpret imag
 - Clone the repository
 - Install the required libraries from `requirements.txt`
 - Run the `main.py` file
+- To get the uri for the raspberry pi, run the command below
+
+```console
+hostname -I
+```
+
+- Then copy the url and paste it in the `main.py` file 
+
+```python
+uri = "ws://copied_url:8765"
+```
 
 ### How to test headset connection
 - To test if the cortex headset is connected and working, run the `test_headset.py` file

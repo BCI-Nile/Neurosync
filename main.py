@@ -3,10 +3,10 @@ import websocket
 import json
 
 # uri = "ws://192.168.84.247:8765" #on my phone hotspot
-uri = "ws://192.168.1.42:8765"  # Starlink IP
-# Suppress the debug messages from the websocket library
+# uri = "ws://192.168.1.42:8765"  # Starlink IP
 
-
+# Enter the hotspot you connect the raspberry pi to
+uri = "ws://192.168.1.42:8765"  
 class Subcribe():
     """
     A class to subscribe data stream.

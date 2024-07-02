@@ -34,7 +34,7 @@ A BCI system prototype that decodes brain EEG signals in order to interpret imag
 hostname -I
 ```
 
-- Then copy the url and paste it in the `main.py` file 
+- Then copy the url and paste it in the `main.py` and `send_dummy_data.py` file 
 
 ```python
 uri = "ws://copied_url:8765"

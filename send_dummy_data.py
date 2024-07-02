@@ -1,15 +1,16 @@
-# Requirements:
-# pip install websocket-client
-#pip install websocket-server
-
 from websocket_server import WebsocketServer
-# uri = "ws://192.168.84.247:8765" #on my phone hotspot
-uri = "ws://192.168.1.42:8765"  # Starlink IP
 import time
 import threading
 import random
 import websocket
 import json
+
+
+# uri = "ws://192.168.84.247:8765" #on my phone hotspot
+# uri = "ws://192.168.1.42:8765"  # Starlink IP
+
+# Enter the hotspot you connect the raspberry pi to
+uri = "ws://192.168.1.42:8765" 
 
 actions = ['right', 'push', 'left', 'pull']
 previous_action_time = 0

@@ -1,5 +1,7 @@
-## Brain Computer Interface using Machine Learning 
-A Brain-Computer Interface (BCI), have become a viable means of bridging the gap between human cognitive capacities and machine interfaces, 
+## Neurosync
+![image](https://github.com/BCI-Nile/Neurosync/blob/3eca9142e0e26492b058d7fba56f1d615877358e/logo.png)
+
+Neurosync is Brain-Computer Interface (BCI), have become a viable means of bridging the gap between human cognitive capacities and machine interfaces, 
 
 Decode speech patterns from our brain activities and interpret the neural signals to enable communication or interaction between the brain and computer
 
@@ -19,10 +21,19 @@ A BCI system prototype that decodes brain EEG signals in order to interpret imag
 - To develop a prototype and test system to ensure accuracy and reliability
 - To implement modification based on the testing result to improve performance
 
-### Implementation
+### How to run
+- Clone the repository
+- Install the required libraries from `requirements.txt`
+- Run the `main.py` file
+
+### How to test headset connection
+- To test if the cortex headset is connected and working, run the `test_headset.py` file
+
+### How to test raspberry pi connection
+- To the connection between the raspberry pi and the computer using dummy data, run the `send_dummy_data.py` file
 
 ### Results
-XGBoost
+XGBoost result
 ![image](https://github.com/BCI-Nile/BCI-Project/assets/171136286/ef2fd52e-50e0-4f59-bfad-8620fbde0f01)
 
 

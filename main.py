@@ -1,13 +1,9 @@
 from cortex import Cortex
-# import time
-# import threading
-# import random
 import websocket
 import json
-import logging
 
-uri = "ws://192.168.84.247:8765" #on my phone hotspot
-# uri = "ws://192.168.1.42:8765"  # Starlink IP
+# uri = "ws://192.168.84.247:8765" #on my phone hotspot
+uri = "ws://192.168.1.42:8765"  # Starlink IP
 # Suppress the debug messages from the websocket library
 
 

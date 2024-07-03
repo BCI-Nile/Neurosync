@@ -1,4 +1,3 @@
-from websocket_server import WebsocketServer
 import time
 import threading
 import random

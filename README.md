@@ -24,6 +24,13 @@ A BCI system prototype that decodes brain EEG signals in order to interpret imag
 - To implement modification based on the testing result to improve performance
 
 ---
+### Video Demonstration
+
+Click thumbnail below 👇 to play video 
+
+[![Video Title](https://img.youtube.com/vi/vKvDjvW-Kd0/0.jpg)](https://www.youtube.com/watch?v=vKvDjvW-Kd0)
+
+---
 ### How to run
 - Clone the repository
 - Install the required libraries from `requirements.txt`
